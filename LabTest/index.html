@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo Express Server</title>
+		<style>
+			h1{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<form name="frmMain" method="post" action="/about">
+			<h1>Login</h1>
+			<table>
+				<tr>
+					<td>
+						Username <input type="text" name="user">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Pasword <input type="text" name="pass">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" value="Login"/>
+					</td>
+				</tr>
+			</table>		  
+		</form>
+		<h1>Lien ket demo</h1>
+		<a href="/about">Trang gioi thieu </a>
+		<a href="/tintuc">Trang tin tuc</a>
+	</body>
+</html>
